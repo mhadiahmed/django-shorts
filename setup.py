@@ -3,10 +3,10 @@
 
 from setuptools import setup
 
-readme = open('README.rst').read()
+readme = open('README.md').read()
 
 setup(
-    name = 'django-shortcuts',
+    name = 'django-shorts',
     version = '1.6',
     description = "You spend way too much time typing 'python manage.py'",
     long_description = readme,
