@@ -1,5 +1,6 @@
 Django shorts
 ================
+forked form [django-shortcuts](https://github.com/jgorset/django-shortcuts)
 
 You spend too much time typing ``python manage.py``.
 
