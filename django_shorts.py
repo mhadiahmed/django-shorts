@@ -52,7 +52,7 @@ def run(command=None, *arguments):
     """
 
     if command is None:
-        sys.exit('django-shortcuts: No argument was supplied, please specify one.')
+        sys.exit('django-shorts: No argument was supplied, please specify one.')
 
     if command in ALIASES:
         command = ALIASES[command]
@@ -66,7 +66,7 @@ def run(command=None, *arguments):
         if base_dir != script_path:
             script_path = base_dir
         else:
-            sys.exit('django-shortcuts: No \'manage.py\' script found in this directory or its parents.')
+            sys.exit('django-shorts: No \'manage.py\' script found in this directory or its parents.')
 
     a = {
         'python': sys.executable,

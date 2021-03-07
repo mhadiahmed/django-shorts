@@ -9,7 +9,7 @@ Usage
 Django shorts installs a ``django`` binary that proxies
 Django's ``manage.py`` and ``django-admin.py`` scripts.
 
-::
+
 
     $ django <command or shortcut>
 
@@ -27,7 +27,7 @@ Some commands require additional packages
 Shortcuts
 ---------
 
-::
+
 
 ALIASES = {
     # Django
@@ -57,6 +57,6 @@ ALIASES = {
 Installation
 ------------
 
-::
+
 
     $ pip install django-shorts
